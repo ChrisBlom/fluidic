@@ -7,7 +7,6 @@
   * Cg
   * CgGL
   * GLEW
-  * GLU
   * GLUT (Test project only)
 
 = Demonstration =
