@@ -34,6 +34,8 @@ fluid->Init(options);
 fluid->SetColorDensities(1, 0, -1);
 }}}
 
+Note: in the trunk copy, `FluidOptions options = Fluid2D::DefaultOptions()` can be used instead of setting all the options manually.
+
 Updating is simply `fluid->Update(dt);`, and rendering is `fluid->Render()`. Note that for the 3D version, the RenderResolution should match the viewport size (set by `glViewport`), or the results may be erroneous.
 
 The Fluid will render in the size defined by `FluidOptions::Size`
